@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Electron Windows Path Error</title>
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
+    <script src="./js/app.js" type="text/javascript"></script>
+</head>
+<body>
+
+    <style type="text/css">
+        
+        *
+        {
+            font-size: 16px;
+        }
+
+        span
+        {
+            color: #555;
+            font-size: 13px;
+            word-break: break-all;
+        }
+
+    </style>
+
+    Image in app folder:
+    <br>Node.js fs.existsSync: <span class="exists-0"></span>
+    <br><span class="path-0"></span>
+    <br><br>
+    <img src="" width="100" class="image-0">
+    <br><br><br><br>
+
+    Image in tmp folder:
+    <br>Node.js fs.existsSync: <span class="exists-1"></span>
+    <br><span class="path-1"></span>
+    <br><br>
+    <img src="" width="100" class="image-1">
+    <br><br><br><br>
+
+    Image in tmp folder short filename:
+    <br>Node.js fs.existsSync: <span class="exists-2"></span>
+    <br><span class="path-2"></span>
+    <br><br>
+    <img src="" width="100" class="image-2">
+    <br><br><br><br>
+
+</body>
+</html>
